@@ -1,0 +1,87 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 134.48957566167741,
+            "y": 300.68056578443009
+          },
+          "nodeIndex": "Dim Artistas",
+          "nodeLineageTag": "060313a5-0b67-4c49-94bd-0df692f27fd3",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 505.14694221687631,
+            "y": 302.40517947473654
+          },
+          "nodeIndex": "Fact Canciones 2023",
+          "nodeLineageTag": "f3c988f7-92bb-4490-a921-e61e2d43c69a",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 455.01344942702156,
+            "y": 64.7686615961828
+          },
+          "nodeIndex": "Dim Año Lanzamiento",
+          "nodeLineageTag": "0f7ab7ab-9dd8-45af-bea3-c2627e69dad6",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 842,
+            "y": 98
+          },
+          "nodeIndex": "Medidas",
+          "nodeLineageTag": "3abe6416-7675-4e2a-9d84-9ab9d2d87737",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 853.47242660984421,
+            "y": 294.0648965825215
+          },
+          "nodeIndex": "Dim Canciones",
+          "nodeLineageTag": "4c8092d2-43cf-4082-b7b6-817c049d557a",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 30.092077178725141,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

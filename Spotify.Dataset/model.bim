@@ -1,0 +1,3908 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Fact Canciones 2023\",\"Dim Artistas\",\"Dim Año Lanzamiento\",\"Medidas\",\"Dim Canciones\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.124.2028.0 (23.12)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "DynamicImprovement": "HighConfidence",
+            "Entities": {
+              "base_indicadores_diseño.column00_observaciones": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Base Indicadores Diseño",
+                    "ConceptualProperty": "00 OBSERVACIONES"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Observaciones": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "base_indicadores_diseño.column00_responsable_categoría_demoraadelanto": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Base Indicadores Diseño",
+                    "ConceptualProperty": "00 RESPONSABLE CATEGORÍA DEMORA-ADELANTO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Responsable": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "base_indicadores_diseño.radicación_licencia__categoría_demora___adelanto": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Base Indicadores Diseño",
+                    "ConceptualProperty": "RADICACIÓN LICENCIA - CATEGORÍA DEMORA / ADELANTO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Categoría": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "base_indicadores_diseño.radicación_licencia__resultado_radicación": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Base Indicadores Diseño",
+                    "ConceptualProperty": "RADICACIÓN LICENCIA - RESULTADO RADICACIÓN"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Resultado": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dim_artista": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim Artistas"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dim artista": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dim_artista.artists_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim Artistas",
+                    "ConceptualProperty": "artist(s)_name"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "artist(s)_name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Nombre de Artista": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dim_año_lanzamiento": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim Año Lanzamiento"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dim año lanzamiento": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dim_año_lanzamiento.released_year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim Año Lanzamiento",
+                    "ConceptualProperty": "released_year"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "released year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "released_year": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "released yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "dim_cancione": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim Canciones"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dim cancione": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dim_cancione.track_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim Canciones",
+                    "ConceptualProperty": "track_name"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "track name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "track_name": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "track": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "track nickname": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "track title": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "track label": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "track tag": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "path": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "pathway": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "road": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "roadway": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "footpath": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "trajectory": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "Nombre de Canción": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dim_ciudad.column00_ciudad": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dim_Ciudad",
+                    "ConceptualProperty": "00 CIUDAD"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Ciudad": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "fact_canciones_2023": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact Canciones 2023"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fact canciones 2023": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fact cancione 2023": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  }
+                ]
+              },
+              "fact_canciones_2023.acousticness_": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact Canciones 2023",
+                    "ConceptualProperty": "acousticness_%"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "acousticness_%": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "acousticness_ percentage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "acousticness_ pct": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  }
+                ]
+              },
+              "fact_canciones_2023.artist_count": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact Canciones 2023",
+                    "ConceptualProperty": "artist_count"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "artist count": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "artist_count": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "artist amount": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "fact_canciones_2023.artists_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact Canciones 2023",
+                    "ConceptualProperty": "artist(s)_name"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "artist(s)_name": {
+                      "State": "Generated"
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "fact_canciones_2023.bpm": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact Canciones 2023",
+                    "ConceptualProperty": "bpm"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "bpm": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "fact_canciones_2023.danceability_": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact Canciones 2023",
+                    "ConceptualProperty": "danceability_%"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "danceability_%": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "danceability_ percentage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "danceability_ pct": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  }
+                ]
+              },
+              "fact_canciones_2023.energy_": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact Canciones 2023",
+                    "ConceptualProperty": "energy_%"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "energy_%": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "energy_ percentage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "energy_ pct": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  }
+                ]
+              },
+              "fact_canciones_2023.in_apple_chart": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact Canciones 2023",
+                    "ConceptualProperty": "in_apple_charts"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "in apple chart": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "in_apple_charts": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "apple chart": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "in apple diagram": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "in apple plan": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "in apple graph": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "in apple table": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "in apple map": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "apple diagram": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "apple plan": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "apple graph": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "apple table": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "apple map": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "fact_canciones_2023.in_apple_playlist": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact Canciones 2023",
+                    "ConceptualProperty": "in_apple_playlists"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "in apple playlist": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "in_apple_playlists": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "playlist": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "apple playlist": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "fact_canciones_2023.in_deezer_chart": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact Canciones 2023",
+                    "ConceptualProperty": "in_deezer_charts"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "in deezer chart": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "in_deezer_charts": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "in deezer diagram": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "in deezer plan": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "in deezer graph": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "in deezer table": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "in deezer map": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  }
+                ]
+              },
+              "fact_canciones_2023.in_deezer_playlist": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact Canciones 2023",
+                    "ConceptualProperty": "in_deezer_playlists"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "in deezer playlist": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "in_deezer_playlists": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "fact_canciones_2023.in_shazam_chart": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact Canciones 2023",
+                    "ConceptualProperty": "in_shazam_charts"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "in shazam chart": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "in_shazam_charts": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "in shazam diagram": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "in shazam plan": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "in shazam graph": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "in shazam table": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "in shazam map": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  }
+                ]
+              },
+              "fact_canciones_2023.in_spotify_chart": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact Canciones 2023",
+                    "ConceptualProperty": "in_spotify_charts"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "in spotify chart": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "in_spotify_charts": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "in spotify diagram": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "in spotify plan": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "in spotify graph": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "in spotify table": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "in spotify map": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  }
+                ]
+              },
+              "fact_canciones_2023.in_spotify_playlist": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact Canciones 2023",
+                    "ConceptualProperty": "in_spotify_playlists"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "in spotify playlist": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "in_spotify_playlists": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "fact_canciones_2023.instrumentalness_": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact Canciones 2023",
+                    "ConceptualProperty": "instrumentalness_%"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "instrumentalness_%": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "instrumentalness_ percentage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "instrumentalness_ pct": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  }
+                ]
+              },
+              "fact_canciones_2023.liveness_": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact Canciones 2023",
+                    "ConceptualProperty": "liveness_%"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "liveness_%": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "liveness_ percentage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "liveness_ pct": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  }
+                ]
+              },
+              "fact_canciones_2023.released_day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact Canciones 2023",
+                    "ConceptualProperty": "released_day"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "released day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "released_day": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "fact_canciones_2023.released_month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact Canciones 2023",
+                    "ConceptualProperty": "released_month"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "released month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "released_month": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "released mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "fact_canciones_2023.released_year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact Canciones 2023",
+                    "ConceptualProperty": "released_year"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "released year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "released_year": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "released yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "fact_canciones_2023.speechiness_": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact Canciones 2023",
+                    "ConceptualProperty": "speechiness_%"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "speechiness_%": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "speechiness_ percentage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "speechiness_ pct": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  }
+                ]
+              },
+              "fact_canciones_2023.stream": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact Canciones 2023",
+                    "ConceptualProperty": "streams"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "stream": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "watercourse": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "torrent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "rivulet": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "beck": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "brook": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "river": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "tributary": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "creek": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "crick": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "jet": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "fact_canciones_2023.track_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact Canciones 2023",
+                    "ConceptualProperty": "track_name"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "track name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "track_name": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "track": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "track nickname": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "track title": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "track label": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "track tag": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "path": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "pathway": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "road": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "roadway": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "footpath": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "trajectory": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "fact_canciones_2023.valence_": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Fact Canciones 2023",
+                    "ConceptualProperty": "valence_%"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "valence_%": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "valence_ percentage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "valence_ pct": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  }
+                ]
+              },
+              "medida": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "medida": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medida.artista_max": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Artista Max"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "artista max": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "artista maximum": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "medida.cancion_stream": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Cancion Stream"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "cancion stream": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "cancion watercourse": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "cancion torrent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "cancion rivulet": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "cancion beck": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "cancion brook": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "cancion river": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "cancion tributary": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "cancion creek": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "cancion crick": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "cancion jet": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  }
+                ]
+              },
+              "medida.canción_max": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Canción Max"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "canción max": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "canción maximum": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "medida.lista_apple": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Lista Apple"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "lista apple": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Apple": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.lista_deezer": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Lista Deezer"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "lista deezer": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Deezer": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.lista_spotify": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Lista Spotify"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "lista spotify": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Spotify": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.participación": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "% Participación"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "% participación": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage participación": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "pct participación": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "% Participación del Total": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.total_streams": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Total Streams"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total streams": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "streams": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "aggregate stream": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "overall stream": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "total watercourse": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "total torrent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "total rivulet": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "total beck": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "watercourse": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "torrent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "rivulet": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "beck": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "Cantidad de Reproducciones": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "dim_artista_has_artists_name": {
+                "Binding": {
+                  "ConceptualEntity": "Dim Artistas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_artista.artists_name"
+                      },
+                      "Subject": {
+                        "Role": "dim_artista"
+                      }
+                    },
+                    "ID": "dim_artistas_have_artists_names",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_artista": {
+                    "Target": {
+                      "Entity": "dim_artista"
+                    }
+                  },
+                  "dim_artista.artists_name": {
+                    "Target": {
+                      "Entity": "dim_artista.artists_name"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_año_lanzamiento_has_released_year": {
+                "Binding": {
+                  "ConceptualEntity": "Dim Año Lanzamiento"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_año_lanzamiento.released_year"
+                      },
+                      "Subject": {
+                        "Role": "dim_año_lanzamiento"
+                      }
+                    },
+                    "ID": "dim_año_lanzamientos_have_released_years",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_año_lanzamiento": {
+                    "Target": {
+                      "Entity": "dim_año_lanzamiento"
+                    }
+                  },
+                  "dim_año_lanzamiento.released_year": {
+                    "Target": {
+                      "Entity": "dim_año_lanzamiento.released_year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_cancione_has_track_name": {
+                "Binding": {
+                  "ConceptualEntity": "Dim Canciones"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_cancione.track_name"
+                      },
+                      "Subject": {
+                        "Role": "dim_cancione"
+                      }
+                    },
+                    "ID": "dim_canciones_have_track_names",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_cancione": {
+                    "Target": {
+                      "Entity": "dim_cancione"
+                    }
+                  },
+                  "dim_cancione.track_name": {
+                    "Target": {
+                      "Entity": "dim_cancione.track_name"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_acousticness_": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_canciones_2023.acousticness_"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_acousticness_",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  },
+                  "fact_canciones_2023.acousticness_": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023.acousticness_"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_artist_count": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_canciones_2023.artist_count"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_artist_counts",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  },
+                  "fact_canciones_2023.artist_count": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023.artist_count"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_bpm": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_canciones_2023.bpm"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_bpms",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  },
+                  "fact_canciones_2023.bpm": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023.bpm"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_danceability_": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_canciones_2023.danceability_"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_danceability_",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  },
+                  "fact_canciones_2023.danceability_": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023.danceability_"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_dim_artista": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_artista"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_dim_artistas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_canciones_2023"
+                      },
+                      "Subject": {
+                        "Role": "dim_artista"
+                      }
+                    },
+                    "ID": "dim_artistas_have_fact_canciones_2023",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_artista": {
+                    "Target": {
+                      "Entity": "dim_artista"
+                    }
+                  },
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_dim_año_lanzamiento1": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_año_lanzamiento"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_dim_año_lanzamientos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_canciones_2023"
+                      },
+                      "Subject": {
+                        "Role": "dim_año_lanzamiento"
+                      }
+                    },
+                    "ID": "dim_año_lanzamientos_have_fact_canciones_2023",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_año_lanzamiento": {
+                    "Nouns": [
+                      {
+                        "released year": {
+                          "State": "Generated"
+                        }
+                      }
+                    ],
+                    "Target": {
+                      "Entity": "dim_año_lanzamiento"
+                    }
+                  },
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_dim_cancione": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_cancione"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_dim_canciones",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_canciones_2023"
+                      },
+                      "Subject": {
+                        "Role": "dim_cancione"
+                      }
+                    },
+                    "ID": "dim_canciones_have_fact_canciones_2023",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_cancione": {
+                    "Target": {
+                      "Entity": "dim_cancione"
+                    }
+                  },
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_energy_": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_canciones_2023.energy_"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_energy_",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  },
+                  "fact_canciones_2023.energy_": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023.energy_"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_in_apple_chart": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_canciones_2023.in_apple_chart"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_in_apple_chart",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  },
+                  "fact_canciones_2023.in_apple_chart": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023.in_apple_chart"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_in_apple_playlist": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_canciones_2023.in_apple_playlist"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_in_apple_playlist",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  },
+                  "fact_canciones_2023.in_apple_playlist": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023.in_apple_playlist"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_in_deezer_chart": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_canciones_2023.in_deezer_chart"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_in_deezer_chart",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  },
+                  "fact_canciones_2023.in_deezer_chart": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023.in_deezer_chart"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_in_deezer_playlist": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_canciones_2023.in_deezer_playlist"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_in_deezer_playlist",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  },
+                  "fact_canciones_2023.in_deezer_playlist": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023.in_deezer_playlist"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_in_shazam_chart": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_canciones_2023.in_shazam_chart"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_in_shazam_chart",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  },
+                  "fact_canciones_2023.in_shazam_chart": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023.in_shazam_chart"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_in_spotify_chart": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_canciones_2023.in_spotify_chart"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_in_spotify_chart",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  },
+                  "fact_canciones_2023.in_spotify_chart": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023.in_spotify_chart"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_in_spotify_playlist": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_canciones_2023.in_spotify_playlist"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_in_spotify_playlist",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  },
+                  "fact_canciones_2023.in_spotify_playlist": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023.in_spotify_playlist"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_instrumentalness_": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_canciones_2023.instrumentalness_"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_instrumentalness_",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  },
+                  "fact_canciones_2023.instrumentalness_": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023.instrumentalness_"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_liveness_": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_canciones_2023.liveness_"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_liveness_",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  },
+                  "fact_canciones_2023.liveness_": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023.liveness_"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_medida_artista_max": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.artista_max"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_artista_max",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  },
+                  "medida.artista_max": {
+                    "Target": {
+                      "Entity": "medida.artista_max"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_medida_cancion_stream": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.cancion_stream"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_cancion_stream",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  },
+                  "medida.cancion_stream": {
+                    "Target": {
+                      "Entity": "medida.cancion_stream"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_medida_canción_max": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.canción_max"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_canción_max",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  },
+                  "medida.canción_max": {
+                    "Target": {
+                      "Entity": "medida.canción_max"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_medida_lista_apple": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.lista_apple"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_lista_apple",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  },
+                  "medida.lista_apple": {
+                    "Target": {
+                      "Entity": "medida.lista_apple"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_medida_lista_deezer": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.lista_deezer"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_lista_deezer",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  },
+                  "medida.lista_deezer": {
+                    "Target": {
+                      "Entity": "medida.lista_deezer"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_medida_lista_spotify": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.lista_spotify"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_lista_spotify",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  },
+                  "medida.lista_spotify": {
+                    "Target": {
+                      "Entity": "medida.lista_spotify"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_medida_participación": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.participación"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have__participación",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  },
+                  "medida.participación": {
+                    "Target": {
+                      "Entity": "medida.participación"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_medida_total_streams": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.total_streams"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_total_streams",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  },
+                  "medida.total_streams": {
+                    "Target": {
+                      "Entity": "medida.total_streams"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_released_day": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_canciones_2023.released_day"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_released_days",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  },
+                  "fact_canciones_2023.released_day": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023.released_day"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_released_month": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_canciones_2023.released_month"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_released_months",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  },
+                  "fact_canciones_2023.released_month": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023.released_month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_speechiness_": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_canciones_2023.speechiness_"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_speechiness_",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  },
+                  "fact_canciones_2023.speechiness_": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023.speechiness_"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_stream": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_canciones_2023.stream"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_streams",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  },
+                  "fact_canciones_2023.stream": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023.stream"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_canciones_2023_has_valence_": {
+                "Binding": {
+                  "ConceptualEntity": "Fact Canciones 2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_canciones_2023.valence_"
+                      },
+                      "Subject": {
+                        "Role": "fact_canciones_2023"
+                      }
+                    },
+                    "ID": "fact_canciones_2023_have_valence_",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_canciones_2023": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023"
+                    }
+                  },
+                  "fact_canciones_2023.valence_": {
+                    "Target": {
+                      "Entity": "fact_canciones_2023.valence_"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "3decf793-60b3-4c42-846e-bcc7f77f72e4",
+        "fromColumn": "artist(s)_name",
+        "fromTable": "Fact Canciones 2023",
+        "toColumn": "artist(s)_name",
+        "toTable": "Dim Artistas"
+      },
+      {
+        "name": "a12dea5f-72e8-4737-8895-f610d0d7af7a",
+        "fromColumn": "released_year",
+        "fromTable": "Fact Canciones 2023",
+        "toColumn": "released_year",
+        "toTable": "Dim Año Lanzamiento"
+      },
+      {
+        "name": "a8a92373-0885-4d73-beab-30330277fe30",
+        "fromColumn": "track_name",
+        "fromTable": "Fact Canciones 2023",
+        "toColumn": "track_name",
+        "toTable": "Dim Canciones"
+      }
+    ],
+    "sourceQueryCulture": "es-CO",
+    "tables": [
+      {
+        "name": "DateTableTemplate_6f69ea2b-322a-4783-b537-15bf5fb3cd15",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "4ff8d745-7b16-4865-82db-4d09d593aa08",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "465abf6d-7374-4450-ae6b-42ce82be4688",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "c1f7df22-f224-40b5-bb85-7ef422658a35",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "61f9c7d1-3873-4958-8fdf-35fffa3f4fbc",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "1f265fe4-287a-4deb-b506-9e36901ba4f4",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "0adc09bd-1390-42a2-9d8f-c2a025bad4a2",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "edd0ce52-98d8-4201-b87d-6dc42e875a86",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "474f52df-95ea-4b98-b573-9a86e4633ab2",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "421c7924-0bd0-4f2a-8e5a-31329f429e84",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "6a5564af-ed4b-4367-94e2-35c4e633e720",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "08c220a8-6506-4288-855d-d8cce364cdad",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "df7e10d2-4bc0-40eb-a1b2-a9da4ce1a514"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "8ac46a2c-79d1-47de-9908-aa7380bea951",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_6f69ea2b-322a-4783-b537-15bf5fb3cd15",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Fact Canciones 2023",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegación"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "track_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "02880184-8242-4c73-aaea-493c71ea75b8",
+            "sourceColumn": "track_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "artist(s)_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3df13962-6d1e-4c6d-8af6-f1ec8d11679a",
+            "sourceColumn": "artist(s)_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "artist_count",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1ed23332-3761-4ae5-a4bc-16a52b0407a7",
+            "sourceColumn": "artist_count",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "released_year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5914b090-67de-416e-8a27-eaf22a27acbd",
+            "sourceColumn": "released_year",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "released_month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e6d5cd78-e074-42ab-a7ea-e9e143f2cbb4",
+            "sourceColumn": "released_month",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "released_day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "fca99c8d-6471-4f86-b923-cc0327adcf6a",
+            "sourceColumn": "released_day",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "in_spotify_playlists",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ef8c27ed-fa89-42d4-be5d-cabc13b196b1",
+            "sourceColumn": "in_spotify_playlists",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "in_spotify_charts",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "118d322f-47e5-41da-8ca3-73c90aeda1bc",
+            "sourceColumn": "in_spotify_charts",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "streams",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "22b53124-3e04-4baf-a86f-1d0265cfa4db",
+            "sourceColumn": "streams",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "in_apple_playlists",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "6ce7d1e8-6da4-47ee-8a7e-59b85949a672",
+            "sourceColumn": "in_apple_playlists",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "in_apple_charts",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "4aab71bb-da46-4c75-8fb6-d23c07c8c2c4",
+            "sourceColumn": "in_apple_charts",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "in_deezer_playlists",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "457b8519-d767-48ee-a1de-486375f5bac9",
+            "sourceColumn": "in_deezer_playlists",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "in_deezer_charts",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3f83e73f-bcdc-4bc9-8b88-8fc135055b07",
+            "sourceColumn": "in_deezer_charts",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "in_shazam_charts",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "b4d70473-0710-448d-8d35-15eadd01e7ae",
+            "sourceColumn": "in_shazam_charts",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "bpm",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e83f435d-0356-4dac-8461-6791f5f2e4cc",
+            "sourceColumn": "bpm",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "danceability_%",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "6d98ec6e-8c92-42c6-a5ba-4b91bd895fce",
+            "sourceColumn": "danceability_%",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "valence_%",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "76bef7b5-9450-435d-b83e-a0622d4b91fd",
+            "sourceColumn": "valence_%",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "energy_%",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "189984ce-557f-4eec-81b3-de568e94ac4e",
+            "sourceColumn": "energy_%",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "acousticness_%",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "09aeed8e-a33e-4e0f-9e78-eb931c96e795",
+            "sourceColumn": "acousticness_%",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "instrumentalness_%",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "7d77bb48-6813-46bb-8e5b-9cab80e3c78a",
+            "sourceColumn": "instrumentalness_%",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "liveness_%",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "0603d408-3fe0-4efc-a0ef-8f18ee0721ed",
+            "sourceColumn": "liveness_%",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "speechiness_%",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2a992279-6456-4cd1-86d5-e3f2fe802c11",
+            "sourceColumn": "speechiness_%",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "f3c988f7-92bb-4490-a921-e61e2d43c69a",
+        "partitions": [
+          {
+            "name": "Fact Canciones 2023",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Excel.Workbook(File.Contents(\"C:\\Users\\lcrui\\Documents\\Power BI\\Reporte prueba\\archive\\spotify-2023.xlsx\"), null, true),",
+                "    #\"spotify-2023_Sheet\" = Origen{[Item=\"spotify-2023\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Encabezados promovidos\" = Table.PromoteHeaders(#\"spotify-2023_Sheet\", [PromoteAllScalars=true]),",
+                "    #\"Filas filtradas\" = Table.SelectRows(#\"Encabezados promovidos\", each ([#\"danceability_%\"] <> null)),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Filas filtradas\",{{\"track_name\", type text}, {\"artist(s)_name\", type text}, {\"artist_count\", type any}, {\"released_year\", type any}, {\"released_month\", Int64.Type}, {\"released_day\", Int64.Type}, {\"in_spotify_playlists\", Int64.Type}, {\"in_spotify_charts\", Int64.Type}, {\"streams\", Int64.Type}, {\"in_apple_playlists\", Int64.Type}, {\"in_apple_charts\", Int64.Type}, {\"in_deezer_playlists\", type number}, {\"in_deezer_charts\", Int64.Type}, {\"in_shazam_charts\", type number}, {\"bpm\", Int64.Type}, {\"key\", type any}, {\"mode\", type any}, {\"danceability_%\", Int64.Type}, {\"valence_%\", type any}, {\"energy_%\", Int64.Type}, {\"acousticness_%\", Int64.Type}, {\"instrumentalness_%\", Int64.Type}, {\"liveness_%\", Int64.Type}, {\"speechiness_%\", Int64.Type}, {\"Column25\", Int64.Type}, {\"Column26\", Int64.Type}}),",
+                "    #\"Errores quitados\" = Table.RemoveRowsWithErrors(#\"Tipo cambiado\", {\"streams\"}),",
+                "    #\"Valor reemplazado\" = Table.ReplaceValue(#\"Errores quitados\",null,0,Replacer.ReplaceValue,{\"in_shazam_charts\"}),",
+                "    #\"Columnas quitadas\" = Table.RemoveColumns(#\"Valor reemplazado\",{\"key\", \"Column25\", \"Column26\", \"mode\"}),",
+                "    #\"Filas filtradas2\" = Table.SelectRows(#\"Columnas quitadas\", each ([released_year] <> 1 and [released_year] <> 2 and [released_year] <> 3 and [released_year] <> 5 and [released_year] <> \"Beach Weather\" and [released_year] <> \"Calvin Harris, Halsey, Pharrell Williams, Justin Timberlake\" and [released_year] <> \"Swae Lee, Lil Wayne, Offset, Metro Boomin\" and [released_year] <> \"Taylor Swift\")),",
+                "    #\"Poner En Mayúsculas Cada Palabra\" = Table.TransformColumns(#\"Filas filtradas2\",{{\"track_name\", Text.Proper, type text}, {\"artist(s)_name\", Text.Proper, type text}})",
+                "in",
+                "    #\"Poner En Mayúsculas Cada Palabra\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Dim Artistas",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegación"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "artist(s)_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "87e8511a-8b8f-41f8-8c66-642df1d99e0e",
+            "sourceColumn": "artist(s)_name",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "060313a5-0b67-4c49-94bd-0df692f27fd3",
+        "partitions": [
+          {
+            "name": "Dim Artistas",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = #\"Fact Canciones 2023\",",
+                "    #\"Otras columnas quitadas\" = Table.SelectColumns(Origen,{\"artist(s)_name\"}),",
+                "    #\"Duplicados quitados\" = Table.Distinct(#\"Otras columnas quitadas\")",
+                "in",
+                "    #\"Duplicados quitados\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Dim Año Lanzamiento",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegación"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "released_year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b3b82d6a-a7f2-4c3a-96d6-17db68cca1b3",
+            "sourceColumn": "released_year",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "0f7ab7ab-9dd8-45af-bea3-c2627e69dad6",
+        "partitions": [
+          {
+            "name": "Dim Año Lanzamiento",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = #\"Fact Canciones 2023\",",
+                "    #\"Otras columnas quitadas\" = Table.SelectColumns(Origen,{\"released_year\"}),",
+                "    #\"Duplicados quitados\" = Table.Distinct(#\"Otras columnas quitadas\")",
+                "in",
+                "    #\"Duplicados quitados\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Medidas",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegación"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "lineageTag": "3abe6416-7675-4e2a-9d84-9ab9d2d87737",
+        "measures": [
+          {
+            "name": "Total Streams",
+            "expression": "SUM('Fact Canciones 2023'[streams])",
+            "formatString": "#,0",
+            "lineageTag": "e2060dbf-50d8-46f5-8a86-a0699f027761"
+          },
+          {
+            "name": "Canción Max",
+            "expression": [
+              "",
+              "VAR ValorMaximo = MAX('Fact Canciones 2023'[streams])",
+              "RETURN",
+              "CALCULATE(",
+              "    VALUES('Fact Canciones 2023'[track_name]),",
+              "    FILTER(",
+              "        'Fact Canciones 2023',",
+              "        'Fact Canciones 2023'[streams] = ValorMaximo",
+              "    ), ALL()",
+              ")"
+            ],
+            "lineageTag": "00270b38-5bf9-4b5a-9f28-40889c35a68f"
+          },
+          {
+            "name": "Artista Max",
+            "expression": [
+              "",
+              "VAR ValorMaximo = MAX('Fact Canciones 2023'[streams])",
+              "RETURN",
+              "CALCULATE(",
+              "    VALUES('Fact Canciones 2023'[artist(s)_name]),",
+              "    FILTER(",
+              "        'Fact Canciones 2023',",
+              "        'Fact Canciones 2023'[streams] = ValorMaximo",
+              "    )",
+              ")"
+            ],
+            "lineageTag": "a6fba146-a20a-4114-a895-c0f6f721c77d"
+          },
+          {
+            "name": "Cancion Stream",
+            "expression": "MAX('Fact Canciones 2023'[streams])",
+            "formatString": "#,0",
+            "lineageTag": "858e1097-25df-4cd4-82f9-80e3ae749663"
+          },
+          {
+            "name": "Lista Spotify",
+            "expression": "SUM('Fact Canciones 2023'[in_spotify_playlists])",
+            "formatString": "#,0",
+            "lineageTag": "f116948f-cc96-479b-a042-f1c43f697462"
+          },
+          {
+            "name": "Lista Apple",
+            "expression": "SUM('Fact Canciones 2023'[in_apple_playlists])",
+            "formatString": "#,0",
+            "lineageTag": "f8bfb279-a2e7-4a30-8908-9780e58ed151"
+          },
+          {
+            "name": "Lista Deezer",
+            "expression": "SUM('Fact Canciones 2023'[in_deezer_playlists])",
+            "formatString": "#,0",
+            "lineageTag": "f3ac9e74-fc8f-4c31-bd4e-f67909fe3004"
+          },
+          {
+            "name": "% Participación",
+            "expression": [
+              "",
+              "VAR total = CALCULATE([Total Streams], ALL('Fact Canciones 2023'))",
+              "RETURN",
+              "DIVIDE([Total Streams], total, 0) "
+            ],
+            "formatString": "0.00\\ %;-0.00\\ %;0.00\\ %",
+            "lineageTag": "acac53d8-67a3-42dc-949c-eb1e2c318eef"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Medidas",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i44FAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Columna1 = _t]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(Origen,{{\"Columna1\", type text}}),",
+                "    #\"Columnas quitadas\" = Table.RemoveColumns(#\"Tipo cambiado\",{\"Columna1\"})",
+                "in",
+                "    #\"Columnas quitadas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Dim Canciones",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegación"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "track_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0859fbe3-3fb9-4fa0-8c33-3a675b113c8e",
+            "sourceColumn": "track_name",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "4c8092d2-43cf-4082-b7b6-817c049d557a",
+        "partitions": [
+          {
+            "name": "Dim Canciones",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = #\"Fact Canciones 2023\",",
+                "    #\"Otras columnas quitadas\" = Table.SelectColumns(Origen,{\"track_name\"}),",
+                "    #\"Duplicados quitados\" = Table.Distinct(#\"Otras columnas quitadas\")",
+                "in",
+                "    #\"Duplicados quitados\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
